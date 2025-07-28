@@ -4,7 +4,6 @@ Complete the tasks in the Python Notebook in this repository.
 Make sure to add and push the pkl or text file of your scraped html (this is specified in the notebook)
 
 ## Rubric
-
 * (Question 1) Article html stored in separate file that is committed and pushed: 1 pt
 * (Question 2) Polarity score printed with an appropriate label: 1 pt
 * (Question 2) Number of sentences printed: 1 pt
@@ -23,3 +22,13 @@ Make sure to add and push the pkl or text file of your scraped html (this is spe
 * (Question 11) Number of sentences printed: 1 pt
 * (Question 12) Thoughtful answer based on reported polarity scores: 1 pt
 * (Question 13) Thoughtful answer based on summaries: 1 pt
+
+## Setup Notes
+1. Setup a virtual environment:  
+`py -m venv .venv`  
+2. Activate the virtual environment:  
+`.venv\Scripts\activate`  
+3. Update pip & install requirements
+`py -m pip install --upgrade pip setuptools wheel`  
+`py -m pip install -r requirements.txt`
+4. Set correct interpreter & kernel
