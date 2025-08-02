@@ -3,3 +3,4 @@ spacy
 requests
 matplotlib
 ipykernel
+textblob

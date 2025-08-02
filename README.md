@@ -32,3 +32,5 @@ Make sure to add and push the pkl or text file of your scraped html (this is spe
 `py -m pip install --upgrade pip setuptools wheel`  
 `py -m pip install -r requirements.txt`
 4. Set correct interpreter & kernel
+5. Install textblob requirements:  
+   `python -m textblob.download_corpora`
